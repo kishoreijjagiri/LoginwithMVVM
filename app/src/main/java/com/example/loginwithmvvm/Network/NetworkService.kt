@@ -5,7 +5,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 
 class NetworkService {
     private var retrofit: Retrofit? = null
-    private val BASE_URL = "https://piidevv2api.halcyontek.com/api/v1/"
+    private val BASE_URL = "https://example.com/api/v1/"
 
     fun getRetrofitInstance(): Retrofit? {
         if (retrofit == null) {
